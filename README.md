@@ -1,41 +1,23 @@
-# Twitter-with-Python-and-Django
+# Twitter Web Application 
 
-*This is a web application like Twitter.*
+## Quick Start
 
-# How to run
+Clone This Project https://github.com/chazuttu/Twitter-with-Python-and-Django.git
 
-```
-git clone https://github.com/IamOmaR22/Twitter-with-Python-and-Django.git
-python manage.py makemigrations
-python manage.py migarte
-python manage.py runserver
-```
+Install Dependencies
+* pip install -r requirements.txt
 
-# Features
-* User-friendly.
+Set Database (Make Sure you are in directory same as manage.py)
+* python manage.py makemigrations
+* python manage.py migrate
 
-<!--
-**[Live Demo](https://iamomar22.pythonanywhere.com/)**
--->
+Create SuperUser
+* python manage.py createsuperuser
 
-# Tools
-## Front-end Part
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-## Back-end
-* Django
-* SQLite 3
+Run Server
+* python manage.py runserver
 
-<!--
-# Screenshots of the Project
-<p align="center">
-  <img width="660" height="300" src="main/static/front/images/screenshots/a.png">
-  <img width="660" height="300" src="main/static/front/images/screenshots/b.png">
-</p>
--->
+*Open a browser to http://127.0.0.1:8000/admin/ to open the admin site*
 
-**Copyright ©** 2020-3020 Md. Omar Faruk
 
-## Go Through This Site Then You Will Know About This Site Properly. Please give star and fork this. 🍴❤️⭐💖🍕🍔
+
