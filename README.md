@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-Clone This Project https://github.com/chazuttu/Twitter-with-Python-and-Django.git
+Clone This Project https://github.com/chazuttu/Twitter-Web-Application.git
 
 Install Dependencies
 * pip install -r requirements.txt
